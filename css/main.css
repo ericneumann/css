@@ -93,7 +93,7 @@ h2 ~ p {
   padding: 10vh 0 15vh;
   text-align: center;
 }
-.footer img {
+.footer-logo img {
   width: 50px;
 }
 .footer h3 {
@@ -104,8 +104,12 @@ h2 ~ p {
 .footer h3 span {
   color: #aaa;
 }
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
 .footer-nav a {
-  color: #fff;
+  color: #ccc;
 }
 
 /* HERO STYLES */
