@@ -19,7 +19,7 @@ h2 ~ p {
   font-style: italic;
   margin: 1em auto 0;
   max-width: 70%;
-  text-align: centre;
+  text-align: center;
 }
 
 /* HEADER STYLES */
@@ -31,15 +31,15 @@ h2 ~ p {
   width: 100%;
   color: #fff;
 }
-.nav-links {
+.header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
 }
-.nav-links > li {
+.header-nav > li {
   display: inline-block;
   margin-left: 1em;
 }
-.nav-links > li ~ li {
+.header-nav > li ~ li {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
@@ -78,8 +78,7 @@ h2 ~ p {
   box-sizing: border-box;
 }
 .header-logo img {
-  height: 80%;
-  width: auto;
+  width: 4.3vh;
 }
 .header-logo:hover,
 .header-logo:active {
