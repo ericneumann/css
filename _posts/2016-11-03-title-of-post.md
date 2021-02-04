@@ -26,7 +26,7 @@ into the street, and methodically knocking people’s hats off—then, I
 account it high time to get to sea as soon as I can. This is my substitute
 for pistol and ball.
 
-<img class="pull-right" src="https://placekitten.com/g/300/200"
+<img class="sub-hero" src="https://placekitten.com/g/600/200"
      alt="kitten">
 
 With a philosophical flourish Cato throws himself upon
