@@ -1,8 +1,30 @@
 <head>
-  <title>Test Page: Don't Panic</title>
+  {% if page.title %}
+  <title>{{ page.title }} | Test Page</title>
+  <meta property="og:title" content="{{ page.title }} | Test Page"/>
+  {% else %}
+    <title>Test Page: Don't Panic</title>
+    <meta property="Test Page: Don't Panic"/>
+  {% endif %}
+  
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}"/>
+  {% else %}
+    <meta name="description" content="This is a dangerous site.">
+    <meta property="og:description" content="This is a dangerous site."/>
+  {% endif %}
+  
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/fonts/fontawesome-free-5.15.2-web/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap">
   <link rel="stylesheet" href="/css/main.css">
 
 </head>
