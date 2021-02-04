@@ -404,6 +404,7 @@ h2 ~ p {
 
 .blog-recent {
   text-align: right;
+  background-color: rgba(0, 0, 0, 0.01);
 }
 .blog-title-list {
   list-style: none;
@@ -494,4 +495,15 @@ h2 ~ p {
   text-align: center; */
   /* margin: 0 50vw; */
   /* transform: translate(0 -50%); */
+}
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside,
+  .blog-recent {
+    display: none;
+  }
 }
