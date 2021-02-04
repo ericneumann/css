@@ -531,9 +531,15 @@ h2 ~ p {
   }
 
   /* BLOG STYLES */
-  .post-aside,
+  .blog-cols {
+    flex-direction: column;
+  }
   .blog-recent {
-    display: none;
+    flex: 1;
+    text-align: center;
+  }
+  .post-aside {
+    display:none;
   }
 
   /* GALLERY STYLES */
@@ -543,8 +549,23 @@ h2 ~ p {
   .gallery .col {
     padding: 1em;
   }
-
-
+  .gallery .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    width: auto;
+    height: 7vh;
+    margin: 0 10px 0 0;
+  }
+  .gallery .gallery-info {
+    flex: 1;
+  }
 }
 
 
